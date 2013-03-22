@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= content_for?(:title) ? yield(:title) : "Imgur Clone" %></title>
-    <meta name="description" content="">
+    <title><%= @title %></title>
+    <meta name="description" content="<%= @description %>">
     <meta name="author" content="">
     <%= stylesheet_link_tag    "application", :media => "all" %>
     <%= javascript_include_tag "application" %>
